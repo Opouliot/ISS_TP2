@@ -12,6 +12,6 @@ if ($conn->connect_error) {
 	die ("La connexion a échoué: " . $conn-connect_error);
 }
 
-echo "Connexion réussie à MariaDB!";
+echo "Connexion réussie à MariaDB serveur 2!";
 ?>
 </html>

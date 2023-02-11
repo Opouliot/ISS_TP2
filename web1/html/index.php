@@ -9,6 +9,6 @@ $conn = new mysqli ($host, $user, $pass);
 if ($conn->connect_error) {
 	die("La connexion a échoué: " . $conn->connect_error);
 }
-echo "Connexion réussie à MariaDB!";
+echo "Connexion réussie à MariaDB! serveur 1";
 ?>
 </html>
